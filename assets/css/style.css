@@ -82,7 +82,8 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #232b2b;
+  /* background: #040b14; */
   overflow-y: auto;
 }
 
@@ -370,7 +371,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.title-pd {
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -597,7 +600,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -614,6 +617,7 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -628,7 +632,7 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+ortfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
@@ -1087,7 +1091,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #232b2b;
 }
 
 #footer .copyright {
